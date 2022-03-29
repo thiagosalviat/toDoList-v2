@@ -14,8 +14,3 @@ You can view a live version of this project which is using MongoDB Atlas and is 
 4. Once dependencies are installed head to the **app.js** file and locate the `mongoose.connect()` function. By default the name of the database is `toDoListDB` but you may change it to whatever you like at the end of the string.
 5. Start up MongoDB with the `mongod` command followed by any flags if your local configuration requires it.
 6. Start the application with `node app.js` and head to `localhost:3000` in your browser of choice.
-
-
-### Side Notes....
-
-Please be respectful if you decide to add new custom lists or items on the live version of the site as I currently do not have an authentication method. This will be my next step for this project, as it will ensure that only 'admins' of the application can add new lists and items.
